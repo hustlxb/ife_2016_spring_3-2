@@ -1,0 +1,39 @@
+.container{
+	padding: 20px;
+	background-color: #eee;
+	border: solid #999 1px;
+	height: 100%;
+	/*overflow: hidden;*/
+}
+
+div{
+	background-color: #fff;
+	border-color: #000;
+/*	margin: 15px;
+	padding: 15px;*/
+}
+div.middle{
+	border: 1px solid black;
+	float: left;
+	margin-left: 220px;
+	margin-right: 140px;
+	padding: 0 20px;
+}
+div.left{
+	width: 200px;
+	/*float: left; */
+	margin-right: -200px;
+}
+div.right{
+	width: 120px;
+	/*float: right; */
+	margin-right: -120px;
+}
+
+img.teamPic{
+	padding: 5px;
+}
+p.leftText{
+	float: right; 
+	padding: 15px;
+}
