@@ -8,7 +8,7 @@
 
 ### [https://github.com/ifehust/ife_2016_spring_3-2](https://github.com/ifehust/ife_2016_spring_3-2)
 
-# IFE春季班第一阶段任务
+# IFE春季班第一阶段任务进行中...
 
 　　第一阶段的主要目标是帮助大家 **了解、认识、学习、掌握HTML及CSS**。第一阶段任务从 **3月14日** 开始，持续到 **4月3日**。当然，您也可以在这个时间以后继续自行实践练习。
 
