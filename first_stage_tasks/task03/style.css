@@ -1,39 +1,47 @@
-.container{
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.container {
+	margin: 20px;
 	padding: 20px;
 	background-color: #eee;
-	border: solid #999 1px;
+	border: solid 1px #999;
 	height: 100%;
-	/*overflow: hidden;*/
+	overflow: hidden;
 }
-
-div{
+.mainbox .content, .submainbox, .sidebar {
 	background-color: #fff;
-	border-color: #000;
-/*	margin: 15px;
-	padding: 15px;*/
-}
-div.middle{
-	border: 1px solid black;
+	border: solid 1px #999;
 	float: left;
+	padding: 20px;
+}
+.img {
+	border: solid 1px #999;
+	width: 100%;
+}
+.mainbox {
+	width: 100%;
+}
+.mainbox .content {
 	margin-left: 220px;
 	margin-right: 140px;
-	padding: 0 20px;
 }
-div.left{
+.content p+p{
+	margin-top: 10px;
+}
+.submainbox {
 	width: 200px;
-	/*float: left; */
-	margin-right: -200px;
+	margin-left: -100%;
 }
-div.right{
+.teamname {
+	vertical-align: top;
+}
+.sidebar {
 	width: 120px;
-	/*float: right; */
-	margin-right: -120px;
+	margin-left: -120px;
 }
-
-img.teamPic{
-	padding: 5px;
-}
-p.leftText{
-	float: right; 
-	padding: 15px;
+.sidebar img {
+	padding-bottom: 20px;
 }
