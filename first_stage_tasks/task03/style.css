@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -51,3 +52,52 @@ body{
 	padding: 15px;
 }
 
+=======
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.container {
+	margin: 20px;
+	padding: 20px;
+	background-color: #eee;
+	border: solid 1px #999;
+	height: 100%;
+	overflow: hidden;
+}
+.mainbox .content, .submainbox, .sidebar {
+	background-color: #fff;
+	border: solid 1px #999;
+	float: left;
+	padding: 20px;
+}
+.img {
+	border: solid 1px #999;
+	width: 100%;
+}
+.mainbox {
+	width: 100%;
+}
+.mainbox .content {
+	margin-left: 220px;
+	margin-right: 140px;
+}
+.content p+p{
+	margin-top: 10px;
+}
+.submainbox {
+	width: 200px;
+	margin-left: -100%;
+}
+.teamname {
+	vertical-align: top;
+}
+.sidebar {
+	width: 120px;
+	margin-left: -120px;
+}
+.sidebar img {
+	padding-bottom: 20px;
+}
+>>>>>>> e1e265e59f5dcd31380759381b8ee996a8b85d7c

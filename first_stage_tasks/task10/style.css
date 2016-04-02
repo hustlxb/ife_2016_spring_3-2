@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     margin: 0;
     padding: 0;
@@ -45,3 +46,52 @@ body{
     height: 200px;
     background-color: blue;
 }
+=======
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.containter {
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+}
+@media screen and (min-width: 640px) {
+	.bigscale {
+		justify-content:space-between;
+		align-items: center;
+	}
+}
+@media screen and (max-width: 640px) {
+	.smallscale {
+		justify-content:space-between;
+		align-items: flex-start;
+		flex-wrap: wrap;
+	}
+	.special {
+		order: -1;
+	}
+}
+.mo1, .mo2, .mo3, .mo4 {
+	display: flex;
+	width: 150px;
+}
+.mo1, .mo2, .mo3 {
+	border: 1px solid #f00;
+}
+.mo1 {
+	height: 120px;
+}
+.mo2 {
+	height: 100px;
+}
+.mo3 {
+	height: 40px;
+}
+.mo4 {
+	height: 200px;
+	border: 1px solid #0f0;
+}
+
+>>>>>>> e1e265e59f5dcd31380759381b8ee996a8b85d7c

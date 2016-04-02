@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .box{
 	background-color: #ccc;
 	width: 400px;
@@ -24,4 +25,42 @@
 	right: 0;
 	bottom: 0;
 	border-top-left-radius: 50px;
+=======
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	height: auto;
+	background-color: #fff;
+	color: #fff;
+	height: 600px;
+	position: relative;
+}
+.center {
+	position: relative;
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+	margin: 0 auto;
+	overflow: hidden;
+	top: 50%;
+	margin-top: -100px;
+}
+.yelmark1, .yelmark2 {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: #fc0;
+	border-radius: 50%;
+}
+.yelmark1 {
+	top: -50px;
+	left: -50px
+}
+.yelmark2 {
+	bottom: -50px;
+	right: -50px;
+>>>>>>> e1e265e59f5dcd31380759381b8ee996a8b85d7c
 }
